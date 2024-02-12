@@ -233,7 +233,7 @@ ul {
 }
 .il li {
   background-color: hsl(237, 14%, 26%);
-  width: 100%;
+  width: 101.6%;
   height: 55px;
   color: #fff;
   list-style-type: none;
@@ -243,12 +243,10 @@ ul {
   position: relative;
   gap: 10px;
   border-bottom: 1px solid hsl(234, 11%, 52%);
-  /* justify-content: space-between; */
-  /* flex-direction: column; */
 }
 .ol li {
   background-color: #fff;
-  width: 100%;
+  width: 101.6%;
   height: 55px;
   list-style-type: none;
   display: flex;
@@ -395,16 +393,32 @@ ul {
   align-items: baseline;
 }
 .il li {
-  width: 102%;
+  width: 104.5%;
 }
 .ol li {
-  width: 102%;
+  width: 104.5%;
 }
 }
 @media screen and (max-width:400px)  {
  #Alpha {
    display: none;
  }
+ .border {
+  width: 98%;
+ }
+ .borders {
+  width: 98%;
+  box-shadow: 0px 0px 4px 0px;
+ }
+ .il li {
+  height: 40px;
+ }
+ .ol li {
+  height: 40px;
+ }
+ /* #Alpha2 {
+  width: ;
+ } */
 }
 
 

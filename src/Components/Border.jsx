@@ -20,7 +20,7 @@ export default function Border({ onAdd, tasks, turns, onDel, onMarkToggle, count
     return (
       <li key={task.id} className={task.completed === true ? "taskText" : null}>
         <div onClick={() => onMarkToggle(task.id)}>{uncompletedState}</div>
-        <task p>{task.text}</task>
+        <p p>{task.text}</p>
         <button className="btn" onClick={() => onDel(task.id)}>
           <img src={iconCross} alt="cross icon" />
         </button>
